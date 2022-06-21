@@ -1,0 +1,20 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.image-home{
+    position : relative;
+    left : 0%;
+}
+.popolari-home h1{
+    color : #F28482;
+    text-align : center;
+
+}
+
+ul.popolari-ul li{
+    display: inline;
+    margin-left : 1.5%
+
+}
+
