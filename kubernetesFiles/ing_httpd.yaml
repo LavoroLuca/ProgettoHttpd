@@ -6,7 +6,7 @@ metadata:
 spec:
   ingressClassName: public
   rules:
-  - host: httpd.k8s.it
+  - host: thomashttpd.k8s.it
     http:
       paths:
       - backend:
