@@ -13,7 +13,7 @@ spec:
     apiVersion: v1
     kind: PersistentVolumeClaim
     name: httpd-pv-claim
-    namespace: ${NAMESPACE}
+    namespace: riccardo
   local:
     path: /mnt/httpd
   nodeAffinity:
