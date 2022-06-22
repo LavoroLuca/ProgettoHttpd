@@ -22,10 +22,10 @@ spec:
         ports:
         - containerPort: 80
           protocol: TCP
-        volumeMounts:
-        - mountPath: /usr/local/apache2/htdocs
-          name: httpd-data
-      volumes:
-      - name: httpd-data
-        persistentVolumeClaim:
-          claimName: httpd-pv-claim
+#        volumeMounts:
+#        - mountPath: /usr/local/apache2/htdocs
+#          name: httpd-data
+#      volumes:
+#      - name: httpd-data
+#        persistentVolumeClaim:
+#          claimName: httpd-pv-claim
