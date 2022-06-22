@@ -3,7 +3,7 @@ kind: PersistentVolume
 metadata:
   labels:
     type: local
-  name: httpd-pv-volume
+  name: thomas-httpd-pv-volume
 spec:
   accessModes:
   - ReadWriteOnce
