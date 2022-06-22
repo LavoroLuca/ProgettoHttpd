@@ -10,4 +10,4 @@ spec:
     requests:
       storage: 10Gi
   volumeMode: Filesystem
-  volumeName: httpd-pv-volume
+  volumeName: thomas-httpd-pv-volume
